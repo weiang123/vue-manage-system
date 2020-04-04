@@ -62,6 +62,11 @@ export default {
                     title: '系统首页'
                 },
                 {
+                    icon: 'el-icon-lx-camera',
+                    index: 'erqucrz',
+                    title: '二区出入'
+                },
+                {
                     icon: 'el-icon-lx-cascades',
                     index: 'table',
                     title: '基础表格'

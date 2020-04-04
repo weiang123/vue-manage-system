@@ -105,6 +105,11 @@ export default new Router({
             ]
         },
         {
+            path: '/erqucrz',
+            component: () => import(/* webpackChunkName: "login" */ '../components/page/erqucrz.vue'),
+            meta: { title: '云社区集中出入管理系统' }
+        },
+        {
             path: '/login',
             component: () => import(/* webpackChunkName: "login" */ '../components/page/Login.vue'),
             meta: { title: '登录' }
