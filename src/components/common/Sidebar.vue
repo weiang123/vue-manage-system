@@ -63,8 +63,8 @@ export default {
                 },
                 {
                     icon: 'el-icon-lx-camera',
-                    index: 'erqucrz',
-                    title: '二区出入'
+                    index: 'erqucrz/content',
+                    title: '牛批系统'
                 },
                 {
                     icon: 'el-icon-lx-cascades',
