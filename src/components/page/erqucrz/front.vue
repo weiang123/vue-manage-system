@@ -52,7 +52,7 @@ export default {
     },
     methods: {
         toContent() {
-            this.$router.push('/erqucrz/content');
+            this.$router.back();
         }
     },
     beforeDestroy: function() {

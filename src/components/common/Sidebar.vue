@@ -64,7 +64,7 @@ export default {
                 {
                     icon: 'el-icon-lx-camera',
                     index: 'erqucrz/content',
-                    title: '牛批系统'
+                    title: '出入证'
                 },
                 {
                     icon: 'el-icon-lx-cascades',

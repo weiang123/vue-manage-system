@@ -110,6 +110,11 @@ export default new Router({
             meta: { title: '云社区集中出入管理系统' }
         },
         {
+            path: '/erqucrz/luying',
+            component: () => import(/* webpackChunkName: "login" */ '../components/page/erqucrz/luying.vue'),
+            meta: { title: '云社区集中出入管理系统' }
+        },
+        {
             path: '/erqucrz/front',
             component: () => import(/* webpackChunkName: "login" */ '../components/page/erqucrz/front.vue'),
             meta: { title: '云社区集中出入管理系统' }
