@@ -19,17 +19,11 @@
   <div class="ms-wrap">
 
     <div style="font-size:13px; margin-top:4%">居民认证</div>
-    <img
-      style="width:46%;margin-top:22%;"
-      src="../../../assets/img/erqucrz/erqucrz-front-ico1.png"
-    >
+    <img style="width:46%;margin-top:22%;" src="../../../assets/img/crz/crz-front-ico1.png">
     <div style="font-size:16px;color:#07c160;margin-top:2rem">审核成功</div>
-    <el-button
-      style="width: 90%; height: 40px; font-size: 18px;border-radius: 5px; margin-top:34%;"
-      type="primary"
-      @click="toContent()"
-    >扫码出入</el-button>
+    <el-button style="width: 90%; height: 40px; font-size: 18px;border-radius: 5px; margin-top:34%;" type="primary" @click="toContent()">扫码出入</el-button>
     <div class="ms-bottom">技术支持：云天融基(北京)科技有限公司<br />联系电话：15311456117</div>
+    <input type="file" id="cm" capture="camera" style="display:none" />
   </div>
 </template>
 
@@ -52,6 +46,7 @@ export default {
     },
     methods: {
         toContent() {
+            document.getElementById('cm').click();
             this.$router.back();
         }
     },

@@ -63,13 +63,18 @@ export default {
                 },
                 {
                     icon: 'el-icon-lx-camera',
-                    index: 'erqucrz/content',
+                    index: '/crz/cont/:username/:add/:txImg',
                     title: '出入证'
                 },
                 {
                     icon: 'el-icon-lx-cascades',
-                    index: 'table',
-                    title: '基础表格'
+                    index: '/crz/enter',
+                    title: '录入'
+                },
+                {
+                    icon: 'el-icon-lx-cascades',
+                    index: 'comradar',
+                    title: 'echarts'
                 },
                 {
                     icon: 'el-icon-lx-copy',
